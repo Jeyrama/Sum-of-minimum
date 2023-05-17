@@ -14,3 +14,9 @@ Note: You will always be given a non-empty list containing positive values.
 */
 
 
+// Solution
+
+function sumOfMinimums(arr) {
+  return arr.reduce((p, c) => p + Math.min(...c), 0);
+}
+
